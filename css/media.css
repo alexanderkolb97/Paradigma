@@ -1,0 +1,334 @@
+@media (max-width: 1440px) {
+    .consult-popup-wrapper {
+        background-image: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    .consult-popup-wrapper .worker-info {
+        display: none;
+    }
+}
+
+@media (max-width: 1300px) {
+    .header-top {
+        justify-content: flex-start;
+    }
+
+    .header-nav .burger {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        display: block;
+    }
+
+    .header-top .map-wrapper {
+        flex-direction: column;
+    }
+
+    .header-top .logo-info {
+        width: 15%;
+    }
+
+    .header-top > div:not(:first-child),
+    .header-top > p {
+        margin-left: 3%;
+    }
+
+    .header-top .map-wrapper img {
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .header-nav nav ul {
+        display: flex;
+        flex-direction: column;
+        background: rgba(254,98,79, .9);
+        justify-content: space-evenly;
+        width: 30%;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: -50%;
+    }
+
+    .header-nav nav ul li {
+        margin-left: 5%;
+    }
+
+    .header-nav nav ul li a {
+        color: #fff;
+    }
+}
+
+@media (max-width: 1250px) {
+    .services-wrapper {
+        width: 65%;
+    }
+
+    .services-wrapper .promo-text {
+        font-size: 42px;
+    }
+
+    .count-price-block .price-info-btn button::before {
+        background-position: 30% center;
+    }
+
+    .count-price-block .price-info-btn button {
+        padding: 3vh 3vw 3vh 5vw;
+    }
+
+    .license-popup-wrapper .license-close-btn {
+        right: -33%;
+        top: -6vh;
+    }
+}
+
+@media (max-width: 1150px) {
+    .header-top .consult-wrapper .btn-consult {
+        width: 12vw;
+        height: 6vh;
+    }
+
+    .header-top .contacts .socials-wrapper button {
+        width: 5vh;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 1150px) {
+    .header-top {
+        margin-bottom: 5vh;
+        justify-content: space-evenly;
+    }
+
+    .header-top .logo-info {
+        margin-left: 0;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 23%;
+    }
+
+    .header-nav .burger {
+        top: 2%;
+        right: 3%;
+    }
+
+    .services-wrapper .count-price-block {
+        flex-direction: column;
+    }
+
+    .services-wrapper .count-price-block .price-info-btn {
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .services-wrapper .count-price-block .licenses-slider ul {
+        justify-content: center;
+    }
+
+    .services-wrapper .traits-info ul {
+        margin-bottom: 5vh;
+    }
+
+    .license-popup-wrapper .license-close-btn {
+        top: -4vh;
+    }
+
+    .license-popup-wrapper {
+        width: 55vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header-top {
+        margin-bottom: 25vh;
+    }
+
+    .services-wrapper .count-price-block .price-info-btn button {
+        padding: 3vh 3vw 3vh 8vw;
+    }
+
+    .license-popup-wrapper {
+
+    }
+}
+
+@media (max-width: 800px) {
+    .header-top {
+        margin-bottom: 30vh;
+    }
+
+    .header-top .consult-wrapper .btn-consult {
+        width: 30vw;
+    }
+
+    .header-top .map-wrapper {
+        position: absolute;
+        top: 12%;
+        left: 30%;
+    }
+
+    .header-top .logo-info {
+        top: 15%;
+    }
+
+    .header-top .contacts {
+        position: absolute;
+        top: 15%;
+        left: 55%;
+    }
+
+    .header-top .contacts .contacts-num {
+        padding-left: 3vw;
+    }
+
+    .header-top .consult-wrapper button {
+        width: 19vw;
+    }
+
+    .services-wrapper .promo-text {
+        font-size: 38px;
+    }
+    
+    .services-wrapper .traits-info ul {
+        flex-direction: column;
+    }
+
+    .services-wrapper .traits-info ul li:not(:last-child) {
+        margin-bottom: 3vh;
+    }
+
+    .services-wrapper .traits-info ul li {
+        width: 80%;
+    }
+
+    .license-popup-wrapper {
+        width: 70vw;
+    }
+
+    .license-popup-wrapper .license-close-btn {
+        right: -5%;
+        top: -11vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .services-wrapper .count-price-block .price-info-btn button {
+        padding: 2vh 3vw 2vh 12vw;
+    }
+
+    .header-top {
+        margin-bottom: 36vh;
+    }
+
+    .header-top .map-wrapper {
+        left: 36%;
+    }
+
+    .header-top .contacts {
+        left: 65%;
+    }
+
+    .header-nav nav ul {
+        width: 50%;
+        right: -50%;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-top {
+        margin-bottom: 40vh;
+    }
+
+    .header-top .logo-info {
+        top: 25%;
+        left: 10%;
+        width: 100%;
+    }
+
+    .header-top .map-wrapper {
+        left: 6%;
+    }
+
+    .header-top .contacts {
+        left: 46%;
+        top: 18%;
+    }
+
+    .header-top .consult-wrapper {
+        position: absolute;
+        top: 12%;
+        left: 46%;
+    }
+
+    .license-popup-wrapper {
+        width: 80vw;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .header-top .logo-info {
+        top: 27%;
+    }
+
+    .services-wrapper .promo-text {
+        font-size: 26px;
+    }
+
+    .license-popup-wrapper .license-close-btn {
+        top: -2vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .header-top {
+        margin-bottom: 70vh;
+    }
+
+    .header-top .logo-info {
+        top: 28%;
+    }
+
+    .header-top .contacts {
+        top: 21%;
+        left: 8%;
+    }
+
+    .header-top .consult-wrapper {
+        top: 16%;
+    }
+
+    .header-top .map-wrapper {
+        top: 9%;
+    }
+
+    .header-nav nav ul {
+        width: 60%;
+        right: -60%;
+    }
+
+    .header-top .consult-wrapper {
+        left: 55%;
+    }
+
+    .services-wrapper .count-price-block button {
+        font-size: 12px;
+    }
+
+    .services-wrapper .count-price-block button::before {
+        background-size: 50%;
+    }
+
+    .services-wrapper .licenses-slider ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services-wrapper .licenses-slider ul li:not(:first-child) {
+        margin-left: 0;
+    }
+}
